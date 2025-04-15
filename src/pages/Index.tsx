@@ -1,4 +1,3 @@
-
 import Logo from "@/components/Logo";
 import Map from "@/components/Map";
 import SafetyCard from "@/components/SafetyCard";
@@ -8,7 +7,7 @@ const Index = () => {
   return (
     <div className="h-screen relative">
       {/* Header */}
-      <div className="fixed top-0 left-0 right-0 z-10 px-4 py-3 flex justify-between items-center">
+      <div className="fixed top-0 left-0 right-0 z-10 p-4 flex justify-between items-center bg-white">
         <Logo />
         <div className="w-10 h-10 rounded-full overflow-hidden">
           <img
@@ -20,7 +19,7 @@ const Index = () => {
       </div>
 
       {/* Safety Banner */}
-      <div className="fixed top-[52px] left-0 right-0 z-10 bg-[#25D366] py-3">
+      <div className="fixed top-[72px] left-0 right-0 z-10 bg-[#25D366] py-3">
         <h2 className="text-white text-base text-center font-medium">
           You're in a Safe Zone
         </h2>
