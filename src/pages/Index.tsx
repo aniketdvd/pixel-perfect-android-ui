@@ -1,12 +1,39 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import Logo from "@/components/Logo";
+import Map from "@/components/Map";
+import SafetyCard from "@/components/SafetyCard";
+import StatusBar from "@/components/StatusBar";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <div className="h-screen relative">
+      {/* Header */}
+      <div className="fixed top-0 left-0 right-0 z-10 px-4 py-3 flex justify-between items-center">
+        <Logo />
+        <div className="w-10 h-10 rounded-full overflow-hidden">
+          <img
+            src="/lovable-uploads/c3266c61-47c1-4f9c-ac13-31db016bc651.png"
+            alt="Profile"
+            className="w-full h-full object-cover"
+          />
+        </div>
       </div>
+
+      {/* Safety Banner */}
+      <div className="fixed top-[52px] left-0 right-0 z-10 bg-[#25D366] py-3">
+        <h2 className="text-white text-base text-center font-medium">
+          You're in a Safe Zone
+        </h2>
+      </div>
+
+      {/* Map */}
+      <Map />
+
+      {/* Safety Card */}
+      <SafetyCard />
+
+      {/* Status Bar */}
+      <StatusBar />
     </div>
   );
 };
