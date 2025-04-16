@@ -4,6 +4,7 @@ import SafetyCard from "@/components/SafetyCard";
 import StatusBar from "@/components/StatusBar";
 import { useState, useEffect } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
+import { getAssetUrl } from "@/utils/assetUrl";
 
 const Index = () => {
   const [searchParams] = useSearchParams();
@@ -68,7 +69,7 @@ const Index = () => {
         <Logo />
         <div className="w-10 h-10 rounded-full overflow-hidden">
           <img
-            src="/lovable-uploads/c3266c61-47c1-4f9c-ac13-31db016bc651.png"
+            src={getAssetUrl("/lovable-uploads/c3266c61-47c1-4f9c-ac13-31db016bc651.png")}
             alt="Profile"
             className="w-full h-full object-cover"
           />
