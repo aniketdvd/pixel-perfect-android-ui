@@ -16,7 +16,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <Router>
+      <Router basename="/pixel-perfect-android-ui">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/shelters" element={<SheltersPage />} />
