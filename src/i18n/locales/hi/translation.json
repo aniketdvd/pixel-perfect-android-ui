@@ -1,0 +1,48 @@
+{
+  "onboarding": {
+    "welcome": {
+      "title": "ज़रिया",
+      "subtitle": "आपकी सुरक्षा, हमारी प्राथमिकता।",
+      "login": "लॉग इन",
+      "signup": "साइन अप"
+    },
+    "login": {
+      "title": "अपने फ़ोन नंबर से लॉग इन करें",
+      "placeholder": "अपना मोबाइल नंबर दर्ज करें",
+      "format": "प्रारूप: +91 XXXXX-XXXXX",
+      "button": "OTP भेजें"
+    },
+    "verifyOTP": {
+      "title": "OTP दर्ज करें",
+      "message": "हमने +91 XXXXX-XXXXX पर 6 अंकों का कोड भेजा है",
+      "resend": "OTP पुनः भेजें",
+      "button": "सत्यापित करें और जारी रखें"
+    },
+    "language": {
+      "title": "अपनी पसंदीदा भाषा चुनें",
+      "button": "जारी रखें"
+    },
+    "contacts": {
+      "title": "अपने आपातकालीन संपर्क जोड़ें",
+      "namePlaceholder": "नाम",
+      "phonePlaceholder": "फ़ोन नंबर",
+      "relationshipPlaceholder": "रिश्ता",
+      "addButton": "संपर्क जोड़ें",
+      "savedTitle": "सहेजे गए संपर्क",
+      "button": "जारी रखें"
+    },
+    "location": {
+      "title": "स्थान की अनुमति दें",
+      "description": "आपातकाल में आपको पास के सुरक्षित आश्रय जल्दी खोजने में मदद करने के लिए हमें आपके स्थान की आवश्यकता है",
+      "allow": "स्थान की अनुमति दें",
+      "skip": "अभी नहीं"
+    }
+  },
+  "main": {
+    "shelters": {
+      "title": "आपके पास के आश्रय",
+      "safeTravel": "यात्रा के लिए सुरक्षित",
+      "distance": "{{distance}} • {{duration}}"
+    }
+  }
+} 

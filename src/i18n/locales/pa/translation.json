@@ -1,0 +1,48 @@
+{
+  "onboarding": {
+    "welcome": {
+      "title": "ਜ਼ਰੀਆ",
+      "subtitle": "ਤੁਹਾਡੀ ਸੁਰੱਖਿਆ, ਸਾਡੀ ਤਰਜੀਹ।",
+      "login": "ਲੌਗ ਇਨ",
+      "signup": "ਸਾਈਨ ਅੱਪ"
+    },
+    "login": {
+      "title": "ਆਪਣੇ ਫ਼ੋਨ ਨੰਬਰ ਨਾਲ ਲੌਗ ਇਨ ਕਰੋ",
+      "placeholder": "ਆਪਣਾ ਮੋਬਾਈਲ ਨੰਬਰ ਦਰਜ ਕਰੋ",
+      "format": "ਫਾਰਮੈਟ: +91 XXXXX-XXXXX",
+      "button": "OTP ਭੇਜੋ"
+    },
+    "verifyOTP": {
+      "title": "OTP ਦਰਜ ਕਰੋ",
+      "message": "ਅਸੀਂ +91 XXXXX-XXXXX 'ਤੇ 6 ਅੰਕਾਂ ਦਾ ਕੋਡ ਭੇਜਿਆ ਹੈ",
+      "resend": "OTP ਦੁਬਾਰਾ ਭੇਜੋ",
+      "button": "ਪੁਸ਼ਟੀ ਕਰੋ ਅਤੇ ਜਾਰੀ ਰੱਖੋ"
+    },
+    "language": {
+      "title": "ਆਪਣੀ ਪਸੰਦੀਦਾ ਭਾਸ਼ਾ ਚੁਣੋ",
+      "button": "ਜਾਰੀ ਰੱਖੋ"
+    },
+    "contacts": {
+      "title": "ਆਪਣੇ ਐਮਰਜੈਂਸੀ ਸੰਪਰਕ ਜੋੜੋ",
+      "namePlaceholder": "ਨਾਮ",
+      "phonePlaceholder": "ਫ਼ੋਨ ਨੰਬਰ",
+      "relationshipPlaceholder": "ਰਿਸ਼ਤਾ",
+      "addButton": "ਸੰਪਰਕ ਜੋੜੋ",
+      "savedTitle": "ਸੁਰੱਖਿਅਤ ਕੀਤੇ ਸੰਪਰਕ",
+      "button": "ਜਾਰੀ ਰੱਖੋ"
+    },
+    "location": {
+      "title": "ਸਥਾਨ ਦੀ ਪਹੁੰਚ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ",
+      "description": "ਐਮਰਜੈਂਸੀ ਵਿੱਚ ਤੁਹਾਨੂੰ ਨੇੜਲੇ ਸੁਰੱਖਿਅਤ ਆਸਰੇ ਜਲਦੀ ਲੱਭਣ ਵਿੱਚ ਮਦਦ ਕਰਨ ਲਈ ਸਾਨੂੰ ਤੁਹਾਡੇ ਸਥਾਨ ਦੀ ਲੋੜ ਹੈ",
+      "allow": "ਸਥਾਨ ਦੀ ਪਹੁੰਚ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ",
+      "skip": "ਹੁਣੇ ਨਹੀਂ"
+    }
+  },
+  "main": {
+    "shelters": {
+      "title": "ਤੁਹਾਡੇ ਨੇੜੇ ਆਸਰੇ",
+      "safeTravel": "ਯਾਤਰਾ ਲਈ ਸੁਰੱਖਿਅਤ",
+      "distance": "{{distance}} • {{duration}}"
+    }
+  }
+} 

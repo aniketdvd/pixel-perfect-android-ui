@@ -1,0 +1,48 @@
+{
+  "onboarding": {
+    "welcome": {
+      "title": "zariya",
+      "subtitle": "Your safety, our priority.",
+      "login": "Login",
+      "signup": "Sign Up"
+    },
+    "login": {
+      "title": "Login with your Phone Number",
+      "placeholder": "Enter your mobile number",
+      "format": "Format: +91 XXXXX-XXXXX",
+      "button": "Send OTP"
+    },
+    "verifyOTP": {
+      "title": "Enter OTP",
+      "message": "We've sent a 6-digit code to +91 XXXXX-XXXXX",
+      "resend": "Resend OTP",
+      "button": "Verify & Continue"
+    },
+    "language": {
+      "title": "Choose Your Preferred Language",
+      "button": "Continue"
+    },
+    "contacts": {
+      "title": "Add Your Emergency Contacts",
+      "namePlaceholder": "Name",
+      "phonePlaceholder": "Phone Number",
+      "relationshipPlaceholder": "Relationship",
+      "addButton": "Add Contact",
+      "savedTitle": "Saved Contacts",
+      "button": "Continue"
+    },
+    "location": {
+      "title": "Allow Location Access",
+      "description": "We need your location to help you find nearby safe shelters quickly in case of emergency",
+      "allow": "Allow Location Access",
+      "skip": "Skip for Now"
+    }
+  },
+  "main": {
+    "shelters": {
+      "title": "Shelters near you",
+      "safeTravel": "Safe to travel",
+      "distance": "{{distance}} • {{duration}}"
+    }
+  }
+} 

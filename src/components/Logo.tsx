@@ -1,11 +1,8 @@
-
 import { cn } from "@/lib/utils";
 
-const Logo = ({ className }: { className?: string }) => {
+const Logo = () => {
   return (
-    <h1 className={cn("text-2xl font-bold select-none", className)}>
-      zariya
-    </h1>
+    <h1 className="text-2xl font-extrabold">zariya</h1>
   );
 };
 

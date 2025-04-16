@@ -4,9 +4,9 @@ import SafetyCard from "@/components/SafetyCard";
 import StatusBar from "@/components/StatusBar";
 import { useState, useEffect } from "react";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import profileImage from "@/assets/profile.png";
+import { getAssetUrl } from "@/utils/assetUrl";
 
-const Index = () => {
+const MapView = () => {
   const [searchParams] = useSearchParams();
   const isReturnedFromShelters = searchParams.get('unsafe') === 'true';
   const navigate = useNavigate();
@@ -69,7 +69,7 @@ const Index = () => {
         <Logo />
         <div className="w-10 h-10 rounded-full overflow-hidden">
           <img
-            src={profileImage}
+            src={getAssetUrl("/lovable-uploads/c3266c61-47c1-4f9c-ac13-31db016bc651.png")}
             alt="Profile"
             className="w-full h-full object-cover"
           />
@@ -130,7 +130,7 @@ const Index = () => {
               </div>
             </div>
             <button 
-              onClick={() => navigate('/shelters?unsafe=true')}
+              onClick={() => navigate('/home/shelters?unsafe=true')}
               className="w-full bg-[#DD0F37] text-white py-4 rounded-xl font-medium"
             >
               Find Shelter Near Me
@@ -145,4 +145,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default MapView; 
