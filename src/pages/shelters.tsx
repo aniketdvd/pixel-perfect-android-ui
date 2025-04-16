@@ -90,7 +90,7 @@ const SheltersPage = () => {
           <ShelterCard
             key={index}
             {...shelter}
-            onClick={() => navigate('/shelter-details')}
+            onClick={() => navigate('/home/shelter-details')}
           />
         ))}
       </div>

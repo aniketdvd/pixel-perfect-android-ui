@@ -41,7 +41,7 @@ const ShelterDetailsPage = () => {
 
     // Navigate to safety confirmation after 6 seconds
     const timer = setTimeout(() => {
-      navigate('/safety-confirmation');
+      navigate('/home/safety-confirmation');
     }, 6000);
 
     return () => {

@@ -5,7 +5,7 @@ const SafetyConfirmationPage = () => {
   const navigate = useNavigate();
 
   const handleSafetyConfirm = () => {
-    navigate('/');  // Navigate back to initial state
+    navigate('/home');  // Navigate to home page
   };
 
   return (
