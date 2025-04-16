@@ -38,7 +38,16 @@ const ShelterDetailsPage = () => {
     setTimeout(() => {
       setIsMapAnimating(true);
     }, 500);
-  }, []);
+
+    // Navigate to safety confirmation after 6 seconds
+    const timer = setTimeout(() => {
+      navigate('/safety-confirmation');
+    }, 6000);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, [navigate]);
 
   // Steps animation
   useEffect(() => {
